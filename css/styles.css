@@ -5,7 +5,9 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+
 }
+
 
 .logo-studio {
     font-weight: 700;
@@ -16,7 +18,7 @@
     color: #2e2f42;
 }
 
-.Studio {
+.studio {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
