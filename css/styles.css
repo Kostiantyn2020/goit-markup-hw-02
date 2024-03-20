@@ -1,5 +1,12 @@
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF
+}
+
+
 .logo {
-    font-weight: 700;
+    font-family: "Raleway", sans-serif font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -10,7 +17,7 @@
 
 
 .logo-studio {
-    font-weight: 700;
+    font-family: "Raleway", sans-serif font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -26,27 +33,56 @@
     color: #2e2f42;
 }
 
-:hover.Studio {
+:hover.studio {
     color: #404bbf
 }
 
-:focus.Studio {
-    color: ;
-    #404bbf
+:focus.studio {
+    color: #404bbf;
 }
 
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+.portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-.kontakt {
+:hover.portfolio {
+    color: #404bbf
+}
+
+:focus.portfolio {
+    color: #404bbf;
+}
+
+.contacts {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+:hover.contacts {
+    color: #404bbf
+}
+
+:focus.contacts {
+    color: #404bbf;
+}
+
+.contakt {
     font-style: normal font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.address {
+    font-style: normal
 }
 
 .mailto {
@@ -57,12 +93,12 @@ color: #434455;
     color: #434455;
 }
 
-:hover.kontakt {
-    color: #404bbf
+:hover.mailto {
+    color: #404bbf;
 }
 
-:focus.tel {
-    #404bbf
+:focus.mailto {
+    color: #404bbf;
 }
 
 .tel {
@@ -71,4 +107,12 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+:hover.tel {
+    color: #404bbf;
+}
+
+:focus.tel {
+    color: #404bbf;
 }
