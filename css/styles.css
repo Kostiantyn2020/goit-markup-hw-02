@@ -127,7 +127,7 @@ button {
 
 .our-team {}
 
-.our-team-subjeck {
+.our-team-subject {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -167,7 +167,9 @@ button {
 
 
 
-.our-portfolio {}
+.our-portfolio {
+    background-color: #F4F4FD;
+}
 
 .our-portfolio-subject {
     font-weight: 700;
@@ -178,7 +180,9 @@ button {
     color: #2e2f42;
 }
 
-.our-portfolio-list {}
+.our-portfolio-list {
+    background-color: #FFFFFF;
+}
 
 .our-portfolio-item {}
 
@@ -190,6 +194,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .our-portfolio-text {
