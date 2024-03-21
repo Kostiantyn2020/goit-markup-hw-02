@@ -1,3 +1,4 @@
+html,
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -14,7 +15,6 @@ body {
     color: #4d5ae5;
 
 }
-
 
 .logo-studio {
     font-family: "Raleway", sans-serif;
@@ -64,20 +64,19 @@ address {
     color: #404bbf;
 }
 
-.section1 {
+.section- {
     background-color: #2e2f42;
 }
 
-.section1-h1 {
+.section-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
 }
 
-.button {
+button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -88,10 +87,10 @@ address {
     cursor: pointe
 }
 
-:hover.button {
+:hover button {
     color: #404BBF;
 }
 
-:focus.button {
+:focus button {
     background-color: #404BBF;
 }
