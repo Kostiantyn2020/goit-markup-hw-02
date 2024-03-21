@@ -26,7 +26,7 @@
     color: #2e2f42;
 }
 
-.studio {
+.nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -34,12 +34,17 @@
     color: #2e2f42;
 }
 
-:hover.studio {
+:hover.nav {
     color: #404bbf;
 }
 
-:focus.studio {
+:focus.nav {
     color: #404bbf;
+}
+
+address {
+
+    font-style: normal;
 }
 
 .kontakt {
@@ -51,22 +56,43 @@
     color: #434455;
 }
 
-.address {
-    font-style: normal;
+:hover.kontakt {
+    color: #404bbf;
 }
 
-.mailto {
-    font-weight: 400;
+:focus.kontakt {
+    color: #404bbf;
+}
+
+.section1 {
+    background-color: #2e2f42;
+}
+
+.section1-h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+    letter-spacing: 0.04em;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    cursor: pointe
 }
 
-:hover.mailto {
-    color: #404bbf;
+:hover.button {
+    color: #404BBF;
 }
 
-:focus.mailto {
-    color: #404bbf;
+:focus.button {
+    background-color: #404BBF;
 }
