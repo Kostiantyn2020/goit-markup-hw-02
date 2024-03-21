@@ -34,11 +34,11 @@ body {
     color: #2e2f42;
 }
 
-:hover.nav {
+.nav:hover {
     color: #404bbf;
 }
 
-:focus.nav {
+.nav:focus {
     color: #404bbf;
 }
 
@@ -60,7 +60,7 @@ address {
     color: #404bbf;
 }
 
-kontakt:focus {
+.kontakt:focus {
     color: #404bbf;
 }
 
@@ -90,6 +90,7 @@ button {
 
 .button:hover {
     color: #404BBF;
+    background-color: #404BBF;
 }
 
 .button:focus {
