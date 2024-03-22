@@ -31,7 +31,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455
+    color: #2e2f42;
 }
 
 .nav:hover {
@@ -48,7 +48,6 @@ address {
 }
 
 .kontakt {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -58,16 +57,18 @@ address {
 }
 
 .kontakt:hover {
-    color: #404bbf;
+    color: #434455;
 }
 
 .kontakt:focus {
-    color: #404bbf;
+    color: #434455;
 }
 
 .section {
     background-color: #2e2f42;
 }
+
+/*----------section1-------*/
 
 .section-title {
     font-weight: 700;
@@ -98,16 +99,13 @@ button {
     background-color: #404BBF;
 }
 
-.section-tex-it {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
+/*-----------section2------------------*/
 
-.section-strategy {
+.information {}
+
+.information-subject {}
+
+.information-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -115,7 +113,7 @@ button {
     color: #2e2f42;
 }
 
-.section-strategy-text {
+.information-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -124,7 +122,7 @@ button {
 }
 
 
-
+/*------------section3--------------------*/
 
 .our-team {
     background-color: #FFFFFF;
@@ -166,10 +164,7 @@ button {
     color: #434455;
 }
 
-
-
-
-
+/*------------section4--------------------*/
 
 .our-portfolio {
     background-color: #F4F4FD;
