@@ -23,6 +23,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #2e2f42
 }
 
 .nav {
@@ -30,7 +31,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42 #2e2f42;
+    color: #2e2f42;
 }
 
 .nav:hover {
@@ -52,12 +53,20 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 
-.kontakt:hover {}
+.mailto {
+    color: #434455
+}
 
-.kontakt:focus {}
+
+.kontakt:hover {
+    color: #404bbf
+}
+
+.kontakt:focus {
+    color: #404bbf
+}
 
 .section {
     background-color: #2e2f42;
@@ -131,13 +140,12 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+
 }
 
-.our-team-list {
+.our-team-list .our-team-item {
     background-color: #FFFFFF
 }
-
-.our-team-item {}
 
 .our-team-image {}
 
@@ -198,4 +206,41 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+/*-----------footer----------*/
+
+
+.footer {
+    background-color: #2e2f42
+}
+
+.footer-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-studio {
+    font-family: "Raleway",
+        sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42
+}
+
+
+.footer-studio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
