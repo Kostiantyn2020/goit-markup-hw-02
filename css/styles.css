@@ -31,7 +31,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455
 }
 
 .nav:hover {
@@ -53,12 +53,17 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 
 }
 
-.kontakt:hover {}
+.kontakt:hover {
+    color: #404bbf;
+}
 
-.kontakt:focus {}
+.kontakt:focus {
+    color: #404bbf;
+}
 
 .section {
     background-color: #2e2f42;
@@ -122,7 +127,7 @@ button {
 
 
 .our-team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .our-team-subject {
