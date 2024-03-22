@@ -23,7 +23,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
 }
 
 .nav {
@@ -31,7 +30,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2e2f42 #2e2f42;
 }
 
 .nav:hover {
@@ -56,13 +55,9 @@ address {
 
 }
 
-.kontakt:hover {
-    color: #434455;
-}
+.kontakt:hover {}
 
-.kontakt:focus {
-    color: #434455;
-}
+.kontakt:focus {}
 
 .section {
     background-color: #2e2f42;
