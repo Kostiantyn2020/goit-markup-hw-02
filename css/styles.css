@@ -120,7 +120,7 @@ button {
 /*------------section3--------------------*/
 
 .our-team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD
 }
 
 .our-team-subject {
@@ -133,7 +133,9 @@ button {
     text-transform: capitalize;
 }
 
-.our-team-list {}
+.our-team-list {
+    background-color: #FFFFFF
+}
 
 .our-team-item {}
 
@@ -141,21 +143,20 @@ button {
 
 .our-team-link {}
 
-.our-team-subtitle {
+.information-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
-.our-team-text {
+
+.information-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
 
