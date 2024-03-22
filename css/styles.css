@@ -229,7 +229,9 @@ button {
 .footer-studio {
     font-weight: 400;
     font-size: 16px;
-
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 .footer-text {
